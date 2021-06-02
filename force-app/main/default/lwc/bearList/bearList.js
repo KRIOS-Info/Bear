@@ -2,7 +2,7 @@ import { publish, MessageContext } from 'lightning/messageService';
 import BEAR_LIST_UPDATE_MESSAGE from '@salesforce/messageChannel/BearListUpdate__c';
 import { NavigationMixin } from 'lightning/navigation';
 import { LightningElement, wire } from 'lwc';
-/** BearController.searchBears(searchTerm) Apex method */
+/** BearController.searchBears(searchTerm) Apex method from Apex */
 import searchBears from '@salesforce/apex/BearController.searchBears';
 export default class BearList extends NavigationMixin(LightningElement) {
 	searchTerm = '';
